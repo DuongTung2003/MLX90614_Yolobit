@@ -1,6 +1,6 @@
 {
     "name": "Cảm biến nhiệt độ MLX90614",
-    "description": "Mục mở rộng cho cảm biến thân nhiệt MLX90614 - KHKT trường Chu Văn An Lạng Sơn",
+    "description": "Mục mở rộng cho cảm biến thân nhiệt MLX90614",
     "libs": [
         "mlx90614.py"
     ],
