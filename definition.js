@@ -21,7 +21,7 @@ Blockly.Python['mlx90614_create'] = function (block) {
     // TODO: Assemble Python into code variable.
     Blockly.Python.definitions_['import_yolobit'] = 'from yolobit import *';
     Blockly.Python.definitions_['import_i2c'] = 'from machine import Pin, I2C';
-    Blockly.Python.definitions_['import_mlx90614'] = 'import mlx90614';
+    Blockly.Python.definitions_['import_mlx90614'] = 'from mlx90614 import *';
     //lcd = LCD1602(I2C(scl=Pin(22), sda=Pin(21)), 0x27)
     var code = 'mlx = MLX90614(I2C(scl=Pin(22), sda=Pin(21)))';
     return code;
