@@ -1,0 +1,9 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="MLX90614" colour="#0384fc" icon="image outline">
+    <block type="mlx90614_create"/>
+     
+    <block type="mlx90614_read_amb"/>
+    <block type="mlx90614_read_obj"/>
+
+  </category>
+</xml>
