@@ -61,7 +61,7 @@ Blockly.Blocks['mlx90614_read_obj'] = {
 };
 Blockly.Python['mlx90614_read_obj'] = function (block) {
     // TODO: Assemble Python into code variable.
-    var code = 'read_object_temp()';
+    var code = 'mlx.read_object_temp()';
     // TODO: Change ORDER_NONE to the correct strength.
     return [code, Blockly.Python.ORDER_NONE];
 };
